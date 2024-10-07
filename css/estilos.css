@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+/*=================== ZONA NAVEGABLE =================*/
+
+nav {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/*=================== CENTRO =================*/
+
+#centro {
+    width: 100%;
+    height: 45vh;
+    background-color: lightblue;
+    display: flex;
+}
+
+.cuadro-centro {
+    width: 50%;
+    height: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-centro{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+}
+
+.imagen-centro {
+    width: 50%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+
+
+/*=================== PRODUCTOS DESTACADOS =================*/
+#productos-destacados {
+    width: 100%;
+    height: 45vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.cuadro-producto{
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-producto {
+    border: 2px solid black;
+    height: 70%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.botones-productos {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.boton-agregar {
+    width: 50%;
+    height: 20%;
+    background-color: rebeccapurple;
+}
+
+.boton-descripcion {
+    width: 47%;
+    height: 20%;
+    background-color: aqua;
+}
