@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "bangers";
+    src: url("../fuentes/Bangers/Bangers-Regular.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../fuentes/Inter/static/Inter_18pt-Regular.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +18,13 @@
 body {
     width: 100%;
     height: 100vh;
+    font-family: "inter";
 }
 
 header {
     width: 100%;
     height: 10vh;
+    font-family: "inter";
 }
 
 /*=================== ZONA NAVEGABLE =================*/
@@ -40,10 +53,33 @@ nav {
     align-items: center;
 }
 
-.texto-centro{
+.info-centro{
     background-color: white;
-    width: 60%;
+    width: 70%;
     height: 50%;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.titulo-info-centro {
+    width: 100%;
+    font-family: "bangers";
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.noticia{
+    font-size: 42px;
+}
+
+.descuento {
+    font-size: 72px;
+}
+
+.mensaje-info-centro {
+
 }
 
 .imagen-centro {
@@ -66,13 +102,13 @@ nav {
 .cuadro-producto{
     width: 20%;
     height: 100%;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2%;
 }
 
 .imagen-producto {
-    border: 2px solid black;
     height: 70%;
     background-color: white;
     border-radius: 15px;
@@ -80,21 +116,22 @@ nav {
 
 .botones-productos {
     width: 100%;
-    height: 40%;
-    background-color: white;
+    height: 12%;
     display: flex;
     justify-content: center;
     gap: 2%;
 }
 
 .boton-agregar {
-    width: 50%;
-    height: 20%;
+    width: 48%;
+    height: 100%;
     background-color: rebeccapurple;
+    border-radius: 5px;
 }
 
 .boton-descripcion {
-    width: 47%;
-    height: 20%;
+    width: 48%;
+    height: 100%;
     background-color: aqua;
+    border-radius: 5px;
 }
