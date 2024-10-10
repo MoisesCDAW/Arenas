@@ -203,10 +203,27 @@ nav {
     cursor: pointer;
 }
 
-.imagen-centro {
+.imagenes-centro {
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
+
+.img-1 {
+    width: 50%;
+    height: 80%;
+    background: url("../img/productos-portada.jpg") no-repeat;
+    background-size: 95%;
+}
+
+.img-2 {
+    width: 50%;
+    height: 100%;
+    background: url("../img/envio-gratis-gato.png");
+    background-size: cover;
+}
+
 
 
 /*=================== PRODUCTOS DESTACADOS =================*/
@@ -241,7 +258,7 @@ nav {
     background: url("../img/producto-3.jpg") no-repeat;
 }
 
-.uno, .dos, .tres, .cuatro{
+.uno, .dos, .tres{
     background-size: 80%;
     background-position: center;
 }
