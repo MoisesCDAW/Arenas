@@ -228,11 +228,37 @@ nav {
     gap: 2%;
 }
 
+
+.uno {
+    background: url("../img/producto-1.jpg") no-repeat;
+}
+
+.dos {
+    background: url("../img/producto-2.jpg") no-repeat;
+}
+
+.tres {
+    background: url("../img/producto-3.jpg") no-repeat;
+}
+
+.uno, .dos, .tres, .cuatro{
+    background-size: 80%;
+    background-position: center;
+}
+
+.cuatro {
+    background: url("../img/producto-4.jpg") no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
 .imagen-producto {
+    width: 100%;
     height: 70%;
     background-color: white;
     border-radius: 15px;
 }
+
 
 .botones-productos {
     width: 100%;
@@ -248,6 +274,7 @@ nav {
     background-color: #FFD475;
     border-radius: 5px;
     border: none;
+    font-size: 18px;
 }
 
 .boton-agregar:hover, .boton-descripcion:hover{
@@ -261,4 +288,5 @@ nav {
     background-color: #E0E4ED;
     border-radius: 5px;
     border: none;
+    font-size: 18px;
 }
