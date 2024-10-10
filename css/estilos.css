@@ -19,6 +19,7 @@ body {
     width: 100%;
     height: 100vh;
     font-family: "inter";
+    color: #4A5972;
 }
 
 header {
@@ -128,9 +129,15 @@ nav {
 
 /*=================== CENTRO =================*/
 
+.divisor {
+    width: 100%;
+    height: 2vh;
+    background-color: #E0E4ED;
+}
+
 #centro {
     width: 100%;
-    height: 45vh;
+    height: 43vh;
     display: flex;
 }
 
@@ -194,8 +201,8 @@ nav {
     border: none;
     font-family: "inter";
     color: white;
-    border-radius: 5px;
-    font-size: 14PX;
+    border-radius: 10px;
+    font-size: 16PX;
 }
 
 .condiciones-boton button:hover{
@@ -229,7 +236,7 @@ nav {
 /*=================== PRODUCTOS DESTACADOS =================*/
 #productos-destacados {
     width: 100%;
-    height: 45vh;
+    height: 43vh;
     background-color: #4A5972;
     display: flex;
     justify-content: center;
@@ -292,6 +299,7 @@ nav {
     border-radius: 5px;
     border: none;
     font-size: 18px;
+    color: #4A5972;
 }
 
 .boton-agregar:hover, .boton-descripcion:hover{
@@ -306,4 +314,5 @@ nav {
     border-radius: 5px;
     border: none;
     font-size: 18px;
+    color: #4A5972;
 }
