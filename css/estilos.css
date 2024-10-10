@@ -62,6 +62,14 @@ nav {
     gap: 1%;
 }
 
+.interactivo a {
+    text-decoration: none;
+    color: #E0E4ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .barra-busqueda {
     width: 30%;
     height: 50%;
@@ -99,12 +107,6 @@ nav {
 
 .acceso:hover {
     border: 1px solid #E0E4ED;
-}
-
-.inicio-sesion {
-    background: none; 
-    color: #E0E4ED;
-
 }
 
 .registro {
