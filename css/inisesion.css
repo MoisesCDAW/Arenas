@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "bangers";
+    src: url("../fuentes/Bangers/Bangers-Regular.ttf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../fuentes/Inter/static/Inter_18pt-Regular.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #4A5972;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-empresa {
+    width: 10%;
+    height: 7%;
+    background: url("../img/loco-claro-horinzontal.png") no-repeat;
+    background-size: 100%;
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
+.contenedor {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-bottom: 5%;
+}
+
+.imagen-izq {
+    width: 30%;
+    height: 100%;
+    background: url("../img/gato-inicio-registro.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.datos {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.datos h1 {
+    font-family: "bangers";
+    font-size: 52px;
+    margin-bottom: 5%;
+    color: #E0E4ED;
+    letter-spacing: 3px;
+}
+
+.datos input {
+    width: 100%;
+    height: 7%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #E0E4ED;
+    outline: none;
+    padding-left: 5%;
+}
+
+.datos input::placeholder {
+    font-family: "inter";
+    color: #E0E4ED;
+    font-size: 16px;
+}
+
+.datos p {
+    font-family: "inter";
+    color: #E0E4ED;
+}
+
+.datos button {
+    width: 40%;
+    height: 6%;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #4A5972;
+    background: #FFD475;
+}
