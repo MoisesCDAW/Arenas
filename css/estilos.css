@@ -99,7 +99,7 @@ nav {
     border: none;
 }
 
-.acceso:hover {
+.inicio-sesion:hover {
     border: 1px solid #E0E4ED;
 }
 
@@ -109,8 +109,8 @@ nav {
 }
 
 .registro:hover {
-    background-color: #4A5972;
-    color: #E0E4ED;
+    background-color: #ffffff;
+    color: #4A5972;
 }
 
 .carrito-compra {
