@@ -47,7 +47,7 @@ body {
 .imagen-izq {
     width: 30%;
     height: 100%;
-    background: url("../img/gato-inicio-registro.jpg");
+    background: url("../img/gato-inicio-registro.webp");
     background-size: cover;
     border-radius: 15px;
 }
